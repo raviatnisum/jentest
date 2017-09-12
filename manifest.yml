@@ -1,6 +1,8 @@
 ---
 applications:
 - name: SecondSample
-  memory: 128M
+  memory: 512M
   buildpack: https://github.com/raviatnisum/jentest.git
   timeout: 60
+  host: springboot-first
+  path: target/gs-spring-boot-0.1.0.jar
