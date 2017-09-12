@@ -1,0 +1,6 @@
+---
+applications:
+- name: SecondSample
+  memory: 128M
+  buildpack: https://github.com/raviatnisum/jentest.git
+  timeout: 60
